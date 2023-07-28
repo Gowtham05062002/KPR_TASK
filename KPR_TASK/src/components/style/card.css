@@ -1,0 +1,23 @@
+.card{
+    transition: 1s;
+    display: inline-block; 
+    margin:20px;
+    word-wrap: break-word;
+    box-shadow:4px 4px 8px black;
+    border-radius:5px;
+    text-align:center;
+    width: 250px; 
+}
+.card:hover{
+    transform: scale(1.1 , 1.05);
+}
+.card img{
+    width: 250px;
+    height: 300px;
+}
+.bttn{ 
+        display:block;
+        margin:auto;
+        margin-bottom:10px;
+        background:linear-gradient(to left,#33ccff 0%, #003399 100%);
+}

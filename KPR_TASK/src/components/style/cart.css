@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+.cartItem{
+    transition: 1s; 
+    box-shadow:4px 4px 8px black; 
+    margin: 20px;
+    background-color: rgb(206, 211, 210);
+}
+.cartItem:hover{
+    transform: scale(1.05 , 1);
+}
+.itemimg img{
+    width: 250px;
+    height: 280px;
+    padding: 10px;
+    display: block;
+    margin: auto;
+}
+.itemdetail{
+    text-align: left;
+}
+.itemdetail h1{
+  font-family: 'Dancing Script', cursive;
+  font-weight: bolder;
+}
+.itemdetail h2{
+    font-family:'Dancing Script', cursive; ;
+    font-size: x-large;
+    font-weight: bold;
+}
+.itemdetail button{
+    margin-top: 10px;
+}
+
+.totalVal{
+    background-color: black;
+    color: white; 
+    margin: 10px;
+    text-align: center;
+    border: 10px solid rgb(239, 239, 240);
+}
+
+@media(max-width:600px){
+    .itemdetail{
+        text-align: center;
+    }
+    .itemdetail button{
+        margin-bottom: 10px;
+    }
+}
